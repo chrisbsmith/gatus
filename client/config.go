@@ -32,7 +32,6 @@ var (
 		Insecure:              false,
 		IgnoreRedirect:        false,
 		Timeout:               defaultTimeout,
-		Network:               "ip",
 		ClientCertificateFile: "",
 		ClientPrivateKeyFile:  "",
 	}
