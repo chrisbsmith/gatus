@@ -107,6 +107,7 @@ func TestConfig_getHTTPClient_withCustomProxyURL(t *testing.T) {
 	}
 }
 
+
 func TestConfig_TlsIsValid(t *testing.T) {
 	tests := []struct {
 		name        string
