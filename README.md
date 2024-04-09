@@ -420,6 +420,7 @@ the client used to send the request.
 | `client.tls.renegotiation`             | Type of renegotiation support to provide. (`never`, `freely`, `once`).      | `"never"`       |
 | `client.network`                       | The network to use for ICMP endpoint client (`ip`, `ip4` or `ip6`).         | `"ip"`          |
 
+
 > 📝 Some of these parameters are ignored based on the type of endpoint. For instance, there's no certificate involved
 > in ICMP requests (ping), therefore, setting `client.insecure` to `true` for an endpoint of that type will not do anything.
 
